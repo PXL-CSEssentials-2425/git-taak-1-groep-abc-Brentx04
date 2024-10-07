@@ -20,5 +20,55 @@ namespace GitTaak1
         {
             InitializeComponent();
         }
+
+        private void pxlPNG_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.Black);
+        }
+
+        private void pxlPNG_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.Red);
+        }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void Image_MouseEnter_1(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.Yellow);
+        }
+
+        private void Image_MouseLeave_1(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void Image_MouseEnter_2(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.Green);
+        }
+
+        private void Image_MouseLeave_2(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void Image_MouseEnter_3(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.Blue);
+        }
+
+        private void Image_MouseLeave_3(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = new SolidColorBrush(Colors.LightGray);
+        }
     }
 }
