@@ -15,6 +15,7 @@
         <Image Margin="145,85,486,237" Source="/Images/Rood.png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" MouseDown="Image_MouseDown"/>
         <Image Margin="145,217,486,105" Source="/Images/Groen.png" Stretch="Fill" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2" MouseDown="Image_MouseDown_2"/>
         <TextBox x:Name="Textbox1" HorizontalAlignment="Left" Margin="145,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" Height="25"/>
+        <TextBox x:Name="Textbox2" HorizontalAlignment="Left" Margin="145,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" Height="25"/>
 
     </Grid>
 </Window>
