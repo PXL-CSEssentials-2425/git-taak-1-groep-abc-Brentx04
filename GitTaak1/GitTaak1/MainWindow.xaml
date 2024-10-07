@@ -9,7 +9,7 @@
         Background="LightGray">
     <Grid x:Name="mainWindow">
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="185" FontSize="18"><Run Language="nl-be" Text="Kleurenpshycologie"/></TextBlock>
-        <Image x:Name="pxlPNG" Margin="640,10,10,274" Source="/Images/PXL.png" Stretch="Fill" MouseEnter="pxlPNG_MouseEnter" MouseLeave="pxlPNG_MouseLeave"/>
+        <Image x:Name="pxlPNG" Margin="635,10,10,270" Source="/Images/PXL.png" Stretch="Fill" MouseEnter="pxlPNG_MouseEnter" MouseLeave="pxlPNG_MouseLeave"/>
         <Image Margin="349,85,282,237" Source="/Images/Geel.png" Stretch="Fill" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1"/>
         <Image Margin="349,217,282,105" Source="/Images/Blauw.png" Stretch="Fill" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3"/>
         <Image Margin="145,85,486,237" Source="/Images/Rood.png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
