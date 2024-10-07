@@ -9,13 +9,15 @@
         Background="LightGray">
     <Grid x:Name="mainWindow">
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="185" FontSize="18"><Run Language="nl-be" Text="Kleurenpshycologie"/></TextBlock>
-        <Image x:Name="pxlPNG" Margin="635,10,10,270" Source="/Images/PXL.png" Stretch="Fill" MouseEnter="pxlPNG_MouseEnter" MouseLeave="pxlPNG_MouseLeave"/>
+        <Image x:Name="pxlPNG" Margin="630,10,10,270" Source="/Images/PXL.png" Stretch="Fill" MouseEnter="pxlPNG_MouseEnter" MouseLeave="pxlPNG_MouseLeave"/>
         <Image Margin="349,85,282,237" Source="/Images/Geel.png" Stretch="Fill" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1" MouseDown="Image_MouseDown_1"/>
         <Image Margin="349,217,282,105" Source="/Images/Blauw.png" Stretch="Fill" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3" MouseDown="Image_MouseDown_3"/>
         <Image Margin="145,85,486,237" Source="/Images/Rood.png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" MouseDown="Image_MouseDown"/>
         <Image Margin="145,217,486,105" Source="/Images/Groen.png" Stretch="Fill" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2" MouseDown="Image_MouseDown_2"/>
         <TextBox x:Name="Textbox1" HorizontalAlignment="Left" Margin="145,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" Height="25"/>
         <TextBox x:Name="Textbox2" HorizontalAlignment="Left" Margin="145,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,349,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top" Height="25" Width="63"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,379,0,0" TextWrapping="Wrap" Text="Informatie:" VerticalAlignment="Top" Height="25" Width="56"/>
 
     </Grid>
 </Window>
